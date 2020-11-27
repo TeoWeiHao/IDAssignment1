@@ -8,48 +8,64 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <il><a href="#">Home</a></il>
-                <il><a href="#">Members</a></il>
-                <il><a href="#">Discography</a></il>
-                <il><a href="#">Live Event</a></il>
-            </ul>
-        </nav>
-    </header>
+    <div class="top">
+        <header>
+            <nav>
+                <ul class="navbar">
+                    <il class="page">Home</il>
+                    <il><a href="members.html">Members</a></il>
+                    <il><a href="albums.html">Discography</a></il>
+                    <il><a href="liveevent.html">Live Event</a></il>
+                </ul>
+            </nav>
+        </header>
 
-    <body>
+        <div class="center">
+            <img src="/assets/UMHP.jpg" alt="RAIN DROPS" width="800" height=auto>
+        </div>
+    </div> 
+
+    <div height="400px">
         <video autoplay="" muted="" loop="" class="video">
-            <source src="!!INSERT MP4 FILE!!" type="video/mp4">
+            <source src="/assets/videoplayback_Trim.mp4" type="video/mp4">
         </video>
-    </body>
+    </div>
 
     <aside>
         <h2>Biography</h2>
-        <p></p>
+        <p>Rain Drops is a music unit belonging to Nijisanji including 6 virtual livers; Ryushen, Saegusa Akina, Warabeda Meiji, Suzuki Masaru, Elu and Joe Rikiichi.</p>
+        <p>During the "Virtual to LIVE" event held by Nijisanji on 8th December 2019, Rain Drops debuted under the music label "Virgin Music"</p>
+        <p>On 23 January 2020, the members of the music unit were announced in a livestream on the official Nijisanji YouTube channel. This event reached No. 1 trending on Twitter and the livestream had reached over 51 thousand live viewers.</p>
+        <p>&nbsp;</p>
+        <p>Their first MINI album "Synesthesia" was released on 13th May of the same year. This album reached the first place in a total of 11 categories, including the Oricon Weekly Total Ranking and it attained the ranking of "Hot Albums" by Billboard JAPAN.</p>
     </aside>
 
+    <div id="mailingform">
+        <form>
+            <label for="mail">Enter Email for Mailing List:</label><br>
+            <input type="email" id="mail" name="mail" value=""><br><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
     <footer>
-        <div>
-            <ul>
-                <il>
-                    <a href="https://twitter.com/raindrops200123" target = "_blank">
-                        <img src="/assets/ico_twitter_w.png" alt="Twitter">
-                    </a>
-                </il>
-                <il>
-                    <a href="https://www.instagram.com/rain_drops_0123/" target = "_blank">
-                        <img src="/assets/ico_insta_w.png" alt="Instagram">
-                    </a>
-                </il>
-                <il>
-                    <a href="https://store.line.me/stickershop/product/18819" target = "_blank">
-                        <img src="/assets/ico_line_w.png" alt="Line">
-                    </a>
-                </il>
-            </ul>
-        </div>
+        <ul class="links">
+            <il>
+                <a href="https://twitter.com/raindrops200123" target = "_blank">
+                    <img src="/assets/ico_twitter_w.png" alt="Twitter" width="30" height=auto>
+                </a>
+            </il>
+            <il>
+                <a href="https://www.instagram.com/rain_drops_0123/" target = "_blank">
+                    <img src="/assets/ico_insta_w.png" alt="Instagram" width="30" height=auto>
+                </a>
+            </il>
+            <il>
+                <a href="https://store.line.me/stickershop/product/18819" target = "_blank">
+                    <img src="/assets/ico_line_w.png" alt="Line" width="30" height=auto>
+                </a>
+            </il>
+        </ul>
     </footer>
 </body>
 </html>

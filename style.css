@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: lightgray;
+}
+
+aside
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+footer
+{
+    background-color: rgb(8, 0, 53);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 500px;
+    padding-right: 500px;
+    justify-content: space-evenly;
+}
+
+h1, h2, h3, label
+{
+    font-family: 'Cabin', sans-serif;
+}
+
+p
+{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+input[type=submit]
+{
+    background-color: lightsteelblue;
+    border: none;
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 3px 55px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.top
+{
+    background-color: rgb(8, 0, 53);
+    font-family: 'Cabin', sans-serif;
+    font-size: 24px;
+}
+
+.page
+{
+    color: lightskyblue;
+}
+
+.navbar
+{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.center
+{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a:link, a:visited, a:link:active, a:visited:active
+{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.links
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#mailingform
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+}
