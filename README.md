@@ -17,7 +17,6 @@ For the members page, I wanted it to show the member information clearly and con
 Lastly for the discography page, I wanted it to be sectioned off for each album to show more separation. Each album would be displayed in both English and Japanese. Since the songs and their titles are mainly in Japanese, I wanted to show both to be able to bridge the gap between the languages. It also includes the crossfade video as it can give a small preview to all the songs.
 
 Adobe XD wireframe: https://xd.adobe.com/view/4239e824-ccf4-40d0-81ea-684177e5783a-176a/
-htl3@adj.np.edu.sg
 
 ## Features
 
