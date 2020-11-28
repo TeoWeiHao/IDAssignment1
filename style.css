@@ -26,8 +26,8 @@ footer
     background-color: rgb(8, 0, 53);
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 30%;
+    padding-right: 30%;
     justify-content: space-evenly;
 }
 
@@ -80,6 +80,12 @@ input[type=submit]
     width: 60%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.center img
+{
+    width: 800px;
+    height: auto;
 }
 
 a:link, a:visited, a:link:active, a:visited:active
@@ -213,6 +219,12 @@ a:link, a:visited, a:link:active, a:visited:active
     flex-wrap: wrap;
 }
 
+.albumcontent img
+{
+    width: 500px;
+    height: 500px;
+}
+
 .songlist
 {
     padding-top: 25px;
@@ -262,4 +274,77 @@ a:link, a:visited, a:link:active, a:visited:active
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+@media only screen and (max-width: 800px)
+{
+    aside
+    {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .mailingform
+    {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .center {
+        position: relative;
+        padding-bottom: 25%;
+        height: 0;
+    }
+
+    .center img
+    {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        width: 170%;
+        height: auto;
+    }
+
+    .navbar
+    {
+        width: 80%;
+    }
+
+    .albumbox
+    {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .albumtitlebox
+    {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .albumcontent
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .songlist
+    {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+
+    .crossfade
+    {
+        padding-left: 40px;
+        padding-right: 40px; 
+    }
+
+    .albumcontent img
+    {
+        width: 100%;
+        height: 100%;
+    }
 }
