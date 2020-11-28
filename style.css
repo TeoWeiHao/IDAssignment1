@@ -219,12 +219,6 @@ a:link, a:visited, a:link:active, a:visited:active
     flex-wrap: wrap;
 }
 
-.albumcontent img
-{
-    width: 500px;
-    height: 500px;
-}
-
 .songlist
 {
     padding-top: 25px;
